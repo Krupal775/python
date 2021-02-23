@@ -1,0 +1,13 @@
+what is enumurate?
+
+The enumerate() function assigns an index to each item in an iterable object that can be used to reference the item later. ... 
+If you are using enumerate in Python 3 and call print(enumerate()) ,
+ you will get an alphanumeric memory reference address instead of a readable list.
+
+ex.
+
+list = [3,4,5,6,7,8,9]
+
+for index,item in enumerate(list):
+    if index==2 or index==4 or index==6:
+        print(f"the {index+1} element is {item}")
